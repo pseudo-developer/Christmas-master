@@ -97,7 +97,7 @@ body { font-family: "Mystery Quest", serif;
   height: 100vh;
   background-color: #f0f0f0;
   width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {

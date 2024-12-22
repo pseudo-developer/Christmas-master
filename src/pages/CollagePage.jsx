@@ -41,7 +41,7 @@ const CollagePage = () => {
                 ))}
             </div>
             <h1 style={{textAlign: 'center'}}>Bs hogya bro aajka, isse jyada effort nahi daal skte the
-
+                    <br></br>
                 All the very best for the day!</h1>
             <audio ref={audioRef} src="/myvoice.mp3" preload="auto"/>
         </div>
