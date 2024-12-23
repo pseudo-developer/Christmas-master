@@ -138,11 +138,11 @@ const ChristmasPage = () => {
           bottom: 20,
           right: 10,
           color: "white",
-          fontSize: "7px", // Made the font smaller
-          opacity: 0.5, // Lower opacity for subtlety
+          fontSize: "12px", // Made the font smaller
+          opacity: 0.7, // Lower opacity for subtlety
         }}
       >
-        Start from below hint !!!
+        Start from below hint...
       </h4>
 
 

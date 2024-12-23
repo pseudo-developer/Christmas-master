@@ -9,7 +9,7 @@ const SecondPage = () => {
     };
 
     // Change the timeout from 5000ms (5 seconds) to 15000ms (15 seconds)
-    setTimeout(goToCollagePage, 10000); // 15000ms = 15 seconds
+    setTimeout(goToCollagePage, 9000); // 15000ms = 15 seconds
 
     return (
         <div className='secondPage'>
