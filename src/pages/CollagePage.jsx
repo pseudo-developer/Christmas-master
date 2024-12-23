@@ -9,9 +9,7 @@ const imageUrls = [
     '/img4.jpeg',
 ];
 
-
-
-const rotations=['10 deg','-20deg','30deg','-20deg']
+const rotations = ['10 deg', '-20deg', '30deg', '-20deg'];
 
 const CollagePage = () => {
 
@@ -23,9 +21,11 @@ const CollagePage = () => {
         audio.play(); // Start the audio
         audio.loop = false; // Make it loop
     };
+
     useEffect(() => {
-        startMusic()
+        startMusic();
     }, []);
+
     return (
         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-around', height: '90vh'}}>
             <Snowfall/>
@@ -40,12 +40,13 @@ const CollagePage = () => {
                     </div>
                 ))}
             </div>
-            <h1 style={{textAlign: 'center'}}>Bs hogya bro aajka, isse jyada effort nahi daal skte the
-                    <br></br>
-                All the very best for the day!</h1>
+            <h1 style={{textAlign: 'center'}}>
+                Bs hogya bro aajka, isse jyada effort nahi daal skte hai
+                <br />
+                <span style={{color: 'pink'}}>All the very best for the day, pookie!</span>
+            </h1>
             <audio ref={audioRef} src="/myvoice.mp3" preload="auto"/>
         </div>
-
     );
 };
 
