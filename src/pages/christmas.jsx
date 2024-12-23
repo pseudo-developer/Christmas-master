@@ -131,7 +131,7 @@ const ChristmasPage = () => {
 
       <h1>Merry Christmas</h1>
 
-      {/* Bottom Right side */}
+      {/* Bottom Right side Heading*/}
       <h4
         style={{
           position: "absolute",
@@ -142,7 +142,7 @@ const ChristmasPage = () => {
           opacity: 0.7, // Lower opacity for subtlety
         }}
       >
-        Start from below hint...
+        Find the real surprise here baby...
       </h4>
 
 
@@ -155,9 +155,10 @@ const ChristmasPage = () => {
           color: "black",
           fontSize: "3px", // Made the font smaller
           opacity: 0.7, // Lower opacity for subtlety
+          fontFamily: "'Roboto', sans-serif", // Use the font imported from Google Fonts
         }}
       >
-        Find the real surprise baby, naviagte to top left corner on screen
+        Start from here. Naviagte to top left corner on screen
       </h4>
 
 
@@ -170,6 +171,7 @@ const ChristmasPage = () => {
           color: "black",
           fontSize: "3px", // Made the font smaller
           opacity: 0.7, // Lower opacity for subtlety
+          fontFamily: "Arial, sans-serif", // Make sure it's written as fontFamily
         }}
       >
         Hi baby, kaisi ho, itta simple nahi hai sweetheart surprise pta krna. 
@@ -185,10 +187,11 @@ const ChristmasPage = () => {
           color: "black",
           fontSize: "3px", // Made the font smaller
           opacity: 0.7, // Lower opacity for subtlety
+          fontFamily: "Arial, sans-serif", // Make sure it's written as fontFamily
         }}
       >
-        Aww baby, nahi mil rha hai baby ko. Mai aapke body me kaha hu, i mean kis part me? 
-        Nahi smjh aaye to check top right bro. (Aur neend na aaye to __ ???)
+        Aww baby, nahi mil rha hai baby ko. Mai aapke body me kaha hu, i mean kis part me rakhe hue ho mujhe? 
+        (Nahi smjh aaye to check top right bro. Aur neend na aaye to __ ???)
       </h4>
 
       {/* Top Right side */}
@@ -200,11 +203,29 @@ const ChristmasPage = () => {
           color: "black",
           fontSize: "3px", // Made the font smaller
           opacity: 0.7, // Lower opacity for subtlety
+          fontFamily: "Arial, sans-serif", // Make sure it's written as fontFamily
         }}
       >
-        Heart me right? And hear center me hota hai...Hope this helps!
-        Are jyada mt dhundh, yahi tha jo tha bro. Pr koi ny xmas tree touch kr kuch gir jaaye maybe (2k ka hair dryer jaisa)
+        Heart me right? And heart center me hota hai...Hope this helps!
+        Are jyada mt dhundh, yahi tha jo tha bro. Sorry bro pareshan krne ke liye. Happy bday again. 
       </h4>
+
+      {/* Top Right side 2nd line */}
+      <h4
+        style={{
+          position: "absolute",
+          top: 20,
+          right: 10, 
+          color: "black",
+          fontSize: "3px", // Made the font smaller
+          opacity: 0.7, // Lower opacity for subtlety
+          fontFamily: "Arial, sans-serif", // Make sure it's written as fontFamily
+        }}
+      >
+        Pr koi ny last moment pe xmas tree touch kr kuch gir jaaye maybe (2000 ka hair dryer kit jaisa)
+      </h4>
+
+      
 
       <div></div>
     </div>
